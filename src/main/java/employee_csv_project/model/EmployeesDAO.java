@@ -8,11 +8,10 @@ public class EmployeesDAO {
     ArrayList<EmployeeDTO> allEmployees = new ArrayList<>();
 
     //places all employees into and ArrayList
-    public void addEmployeesToList(String[] listOfEmployeesAsString){
-        for (int i = 0; i < listOfEmployeesAsString.length; i++) {
-            EmployeeDTO employee = new EmployeeDTO(listOfEmployeesAsString);
-            allEmployees.add(employee);
-        }
+    public void addEmployeeToList(String[] employeeData){
+        EmployeeDTO employee = new EmployeeDTO(employeeData);
+        allEmployees.add(employee);
     }
+
 
 }
