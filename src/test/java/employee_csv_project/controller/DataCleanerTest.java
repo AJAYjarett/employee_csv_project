@@ -11,10 +11,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 public class DataCleanerTest {
     String badDate = "9/4/2008";
     String goodDate = "10/20/1994";
-    @BeforeAll
-    static void setUpAll(){
-
-    }
 
     @Test
     @DisplayName("Test that incorrectly formatted date is formatted correctly")
