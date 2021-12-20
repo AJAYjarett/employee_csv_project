@@ -1,5 +1,7 @@
 package employee_csv_project.model;
 
+import employee_csv_project.controller.DataCleaner;
+
 import java.time.LocalDate;
 
 public class EmployeeDTO {
@@ -22,9 +24,9 @@ public class EmployeeDTO {
         this.middleInit = employeeData[3];
         this.lastName = employeeData[4];
         this.gender = employeeData[5];
-        this.eMail = DataCleaner.checkValidEmail(employeeData[6]);
-        this.dob = DataCleaner.formatDate(employeeData[7]);
-        this.dateOfJoining = DataCleaner.formatDate(employeeData[8]);
+        this.eMail = employeeData[6];
+        this.dob = LocalDate.parse(DataCleaner.formatDate(employeeData[7]));
+        this.dateOfJoining = LocalDate.parse(DataCleaner.formatDate(employeeData[8]));
         this.salary = Integer.parseInt(employeeData[9]);
     }
 }
