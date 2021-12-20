@@ -1,7 +1,6 @@
 package employee_csv_project.model;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class EmployeeDTO {
 
@@ -17,15 +16,15 @@ public class EmployeeDTO {
     private int salary;
 
     public EmployeeDTO(String[] employeeData) {
-
-    }
-
-
-    public void setDateOfJoining(String dateOfJoining) {
-        this.dateOfJoining = LocalDate.parse(dateOfJoining, DateTimeFormatter.ofPattern("M[M]/d[d]/yyyy"));
-    }
-
-    public void setDob(String dob) {
-        this.dob = LocalDate.parse(dob, DateTimeFormatter.ofPattern("M[M]/d[d]/yyyy"));
+        this.employeeId = Integer.parseInt(employeeData[0]);
+        this.namePrefix = employeeData[1];
+        this.firstName = employeeData[2];
+        this.middleInit = employeeData[3];
+        this.lastName = employeeData[4];
+        this.gender = employeeData[5];
+        this.eMail = DataCleaner.checkValidEmail(employeeData[6]);
+        this.dob = DataCleaner.formatDate(employeeData[7]);
+        this.dateOfJoining = DataCleaner.formatDate(employeeData[8]);
+        this.salary = Integer.parseInt(employeeData[9]);
     }
 }
