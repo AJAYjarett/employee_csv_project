@@ -10,7 +10,7 @@ public class DbInitializer {
     private static void initializeDb() {
 
         try {
-            Connection connection = ConnectionManager.dbInitializeConnection();
+            Connection connection = ConnectionManager.dbInitialiseConnection();
             connection.createStatement().executeUpdate(DbInitializeStatement.DB_INITIALISE);
             ConnectionManager.closeConnection(connection);
         } catch (SQLException e) {
@@ -21,7 +21,7 @@ public class DbInitializer {
     private static void initializeEmployeeTable() {
 
         try {
-            Connection connection = ConnectionManager.dbCompanyXConnection();
+            Connection connection = ConnectionManager.dbEmployeeCSVDatabaseConnection();
             connection.createStatement().executeUpdate(DbInitializeStatement.CREATE_EMPLOYEES_TABLE);
             ConnectionManager.closeConnection(connection);
         } catch (SQLException e) {
