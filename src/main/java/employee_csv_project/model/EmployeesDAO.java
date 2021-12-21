@@ -18,18 +18,7 @@ public class EmployeesDAO {
         allEmployees.add(employee);
     }
 
-    public static void addEmployeesToDatabase(){
-        try {
-            for (int i = 0; i < allEmployees.size(); i++) {
-                Connection connection = ConnectionManager.dbEmployeeCSVDatabaseConnection();
-                connection.createStatement().execute(QueryManager.createInsertQuery(allEmployees[i]));
-                ConnectionManager.closeConnection(connection);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
+    public ArrayList<EmployeeDTO> getAllEmployees() {
+        return allEmployees;
     }
-
-
 }
