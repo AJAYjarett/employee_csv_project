@@ -9,27 +9,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeCsvParser {
-    private final List<String[]> refactoredEmployeeDetails = new ArrayList<>();
 
-    public void createEmployeeData() {
+    public static List<String[]> createEmployeeData() {
+        List<String[]> refactoredEmployeeDetails = new ArrayList<>();
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(Config.employeeCsvFileLocation()));
             bufferedReader.readLine();
             for (String employeeRecord = bufferedReader.readLine(); employeeRecord != null; employeeRecord = bufferedReader.readLine()) {
-                refactorEmployeeRecord(employeeRecord);
+                refactoredEmployeeDetails.add(refactorEmployeeRecord(employeeRecord));
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    public void refactorEmployeeRecord(String employeeRecord) {
-        String[] employeeDetails = employeeRecord.split(",");
-        refactoredEmployeeDetails.add(employeeDetails);
-
-    }
-
-    public List<String[]> getRefactoredEmployeeDetails() {
         return refactoredEmployeeDetails;
     }
+
+    private static String[] refactorEmployeeRecord(String employeeRecord) {
+        String[] employeeDetails = employeeRecord.split(",");
+        return employeeDetails;
+
+    }
+
 }

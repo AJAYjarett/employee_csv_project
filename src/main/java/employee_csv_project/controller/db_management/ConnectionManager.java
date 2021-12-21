@@ -7,6 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionManager {
+
     public static Connection dbInitialiseConnection(){
         Connection connection = null;
 
@@ -20,16 +21,19 @@ public class ConnectionManager {
 
         return connection;
     }
+  
     public static Connection dbEmployeeCSVDatabaseConnection(){
         Connection connection = null;
 
         try {
             connection = DriverManager.getConnection(Config.dbConnectionUrl() + "/"+ Config.dbName(),Config.dbUsername(), Config.dbPassword());
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return connection;
     }
+
     public static void closeConnection(Connection connection){
         try {
             connection.close();
@@ -38,4 +42,5 @@ public class ConnectionManager {
             e.printStackTrace();
         }
     }
+
 }
