@@ -29,4 +29,44 @@ public class EmployeeDTO {
         this.dateOfJoining = employeeData[8];
         this.salary = Integer.parseInt(employeeData[9]);
     }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
+
+    public String getNamePrefix() {
+        return namePrefix;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getMiddleInit() {
+        return middleInit;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String geteMail() {
+        return eMail;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public String getDateOfJoining() {
+        return dateOfJoining;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
 }
