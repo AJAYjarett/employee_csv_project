@@ -30,6 +30,8 @@ public class RuntimeTasks {
         ArrayList<EmployeeDTO> allEmployees = employeesDAO.getAllEmployees();
         try {
             Connection connection = ConnectionManager.dbEmployeeCSVDatabaseConnection();
+            connection.createStatement().executeUpdate(SQLPreparedQueries.DB_INITIALISE);
+            connection.createStatement().executeUpdate(SQLPreparedQueries.CREATE_EMPLOYEES_TABLE);
             for (int i = 0; i < allEmployees.size(); i++) {
                 PreparedStatement preparedStatement =connection.prepareStatement(SQLPreparedQueries.INSERT_EMPLOYEE);
                 preparedStatement.setInt(1,allEmployees.get(i).getEmployeeId());
