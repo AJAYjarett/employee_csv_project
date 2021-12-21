@@ -1,7 +1,6 @@
 package employee_csv_project.model;
 
 import employee_csv_project.controller.DataCleaner;
-
 import java.time.LocalDate;
 
 public class EmployeeDTO {
