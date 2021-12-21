@@ -12,7 +12,7 @@ public class ConnectionManager {
         Connection connection = null;
 
         try {
-            connection = DriverManager.getConnection(Config.dbConnectionUrl(),Config.dbUsername(), Config.dbPassword());
+            connection = DriverManager.getConnection(Config.dbConnectionUrl(),Config.dbUserName(), Config.dbPassword());
             //use logger for this
             System.out.println("connect to db");
         } catch (SQLException e) {
@@ -26,7 +26,7 @@ public class ConnectionManager {
         Connection connection = null;
 
         try {
-            connection = DriverManager.getConnection(Config.dbConnectionUrl() + "/"+ Config.dbName(),Config.dbUsername(), Config.dbPassword());
+            connection = DriverManager.getConnection(Config.dbConnectionUrl() + "/"+ Config.dbName(),Config.dbUserName(), Config.dbPassword());
 
         } catch (SQLException e) {
             e.printStackTrace();
