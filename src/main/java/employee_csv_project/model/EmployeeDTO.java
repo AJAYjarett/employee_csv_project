@@ -3,6 +3,7 @@ package employee_csv_project.model;
 import employee_csv_project.controller.DataCleaner;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class EmployeeDTO {
 
@@ -13,8 +14,8 @@ public class EmployeeDTO {
     private String lastName;
     private String gender;
     private String eMail;
-    private LocalDate dob;
-    private LocalDate dateOfJoining;
+    private String dob;
+    private String dateOfJoining;
     private int salary;
 
     public EmployeeDTO(String[] employeeData) {
@@ -25,8 +26,8 @@ public class EmployeeDTO {
         this.lastName = employeeData[4];
         this.gender = employeeData[5];
         this.eMail = employeeData[6];
-        this.dob = LocalDate.parse(DataCleaner.formatDate(employeeData[7]));
-        this.dateOfJoining = LocalDate.parse(DataCleaner.formatDate(employeeData[8]));
+        this.dob = employeeData[7];
+        this.dateOfJoining = employeeData[8];
         this.salary = Integer.parseInt(employeeData[9]);
     }
 }
