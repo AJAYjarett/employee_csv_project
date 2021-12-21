@@ -29,9 +29,6 @@ public class EmployeeCsvParser {
 
     }
 
-    public static void main(String[] args) {
-    }
-
     public List<String[]> getRefactoredEmployeeDetails() {
         return refactoredEmployeeDetails;
     }
