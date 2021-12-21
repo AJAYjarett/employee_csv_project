@@ -3,13 +3,16 @@ package employee_csv_project.app;
 import employee_csv_project.logger.LogWriter;
 
 import java.util.logging.Level;
+import employee_csv_project.model.EmployeesDAO;
+
 
 public class RuntimeController {
 
     public static void runProgram(){
         LogWriter.createLogger();
         LogWriter.writeLog(Level.INFO, "Logging Started");
-
-        RuntimeTasks.createEmployeesDAO();
+      
+        EmployeesDAO employeesDAO = RuntimeTasks.createEmployeesDAO();
+        RuntimeTasks.createDbFromEmployeesDAO(employeesDAO);
     }
 }

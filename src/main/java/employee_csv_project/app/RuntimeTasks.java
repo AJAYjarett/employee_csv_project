@@ -21,4 +21,8 @@ public class RuntimeTasks {
         }
         return employeesDAO;
     }
+
+    public static void createDbFromEmployeesDAO(EmployeesDAO employeesDAO){
+
+    }
 }
