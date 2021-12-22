@@ -1,14 +1,10 @@
-package employee_csv_project.controller.data_transformation;
+package employee_csv_project.controller.csv_controller.data_transformation;
 
-import employee_csv_project.controller.csv_controller.data_transformation.DataCleaner;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-
-import static org.junit.jupiter.api.Assertions.fail;
-
 
 public class DataCleanerTest {
     String badDate = "9/4/2008";

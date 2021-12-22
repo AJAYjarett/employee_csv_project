@@ -12,4 +12,13 @@ public class DataValidator {
     public static boolean validateDates(LocalDate birthDate, LocalDate joinDate) {
         return birthDate.isBefore(joinDate);
     }
+
+    /**
+     * Method to validate gender attribute
+     * @param gender The gender to check
+     * @return boolean whether the gender is valid
+     */
+    public static boolean validateGender(String gender) {
+        return (gender.equals("M") || gender.equals("F"));
+    }
 }

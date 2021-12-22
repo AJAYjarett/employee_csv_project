@@ -1,13 +1,14 @@
 package employee_csv_project.controller.csv_controller.data_validation;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
 
 import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.validateDates;
+import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.validateGender;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class DataValidatorTest {
     LocalDate earlyDate = LocalDate.of(2000, 4,10);
@@ -24,4 +25,15 @@ public class DataValidatorTest {
     void testThatEarlierDateIsBeforeLaterDate() {
         Assertions.assertTrue(validateDates(earlyDate, lateDate));
     }
+
+    @Test
+    @DisplayName("Test that a valid gender returns valid")
+    void testThatAValidGenderReturnsValid() {
+        Assertions.assertTrue(validateGender("M"));
+    }
+
+    @Test
+    @DisplayName("Test that an invalid gender returns invalid")
+    void testThatAnInvalidGenderReturnsInvalid() {
+        Assertions.assertFalse(validateGender("O"));    }
 }
