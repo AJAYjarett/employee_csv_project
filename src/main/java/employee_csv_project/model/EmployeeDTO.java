@@ -50,7 +50,7 @@ public class EmployeeDTO {
         return gender;
     }
 
-    public String geteMail() {
+    public String getEmail() {
         return eMail;
     }
 
