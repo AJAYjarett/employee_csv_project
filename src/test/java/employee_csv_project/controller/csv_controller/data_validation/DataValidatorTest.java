@@ -4,15 +4,16 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
+import java.sql.Date;
 
-import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.validateDates;
-import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.validateGender;
-import static org.junit.jupiter.api.Assertions.fail;
+import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.*;
 
 public class DataValidatorTest {
-    LocalDate earlyDate = LocalDate.of(2000, 4,10);
-    LocalDate lateDate = LocalDate.of(2020, 4,10);
+    Date earlyDate = Date.valueOf("2000-10-24");
+    Date lateDate = Date.valueOf("2020-09-21");
+
+    String badEmail = "notvalid@badEmailplace.org.atSymbol@";
+    String goodEmail = "legitemail@niceEmailProvider.com";
 
     @Test
     @DisplayName("Test that later date is not before earlier date")
@@ -35,5 +36,19 @@ public class DataValidatorTest {
     @Test
     @DisplayName("Test that an invalid gender returns invalid")
     void testThatAnInvalidGenderReturnsInvalid() {
-        Assertions.assertFalse(validateGender("O"));    }
+        Assertions.assertFalse(validateGender("O"));
+    }
+
+    @Test
+    @DisplayName("Test that a valid email returns valid")
+    void testThatAValidEmailReturnsValid() {
+        Assertions.assertTrue(validateEmail(goodEmail));
+    }
+
+    @Test
+    @DisplayName("Test that an invalid email returns invalid")
+    void testThatAnInvalidEmailReturnsInvalid() {
+        Assertions.assertFalse(validateEmail(badEmail));
+    }
+    
 }
