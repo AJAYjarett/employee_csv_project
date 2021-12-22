@@ -1,6 +1,6 @@
-package employee_csv_project.controller.db_management;
+package employee_csv_project.controller.db_controller.db_management;
 
-import employee_csv_project.controller.db_management.sql_queries.SQLPreparedQueries;
+import employee_csv_project.controller.db_controller.sql_queries.SQLPreparedQueries;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package employee_csv_project.controller.db_management.sql_queries;
+package employee_csv_project.controller.db_controller.sql_queries;
 
 
 import employee_csv_project.config.Config;
@@ -8,7 +8,7 @@ public interface SQLPreparedQueries {
 
     String CREATE_EMPLOYEES_TABLE = "CREATE TABLE IF NOT EXISTS employees (" +
             "employeeID INTEGER," +
-            "name_prefix VARCHAR(4)," +
+            "name_prefix VARCHAR(10)," +
             "first_name VARCHAR(20)," +
             "middle_initial CHAR," +
             "last_name VARCHAR(20)," +
