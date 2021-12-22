@@ -3,6 +3,14 @@ package employee_csv_project.controller.csv_controller.data_validation;
 import java.time.LocalDate;
 
 public class DataValidator {
+
+    public static boolean validateMiddleInit(String middleInitial){
+        if (middleInitial.length() == 1){
+            return true;
+        }
+        return false;
+    }
+
     /**
      * Method to validate that one date is before another
      * @param joinDate The later date
