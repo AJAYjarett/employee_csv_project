@@ -39,4 +39,11 @@ public class CheckForDuplicates {
         return listOfNonDuplicatedEmployees;
     }
 
+    public static ArrayList<EmployeeDTO> getListOfDuplicatedEmployees() {
+        return listOfDuplicatedEmployees;
+    }
+
+    public static void setListOfNonDuplicatedEmployees(ArrayList<EmployeeDTO> listOfNonDuplicatedEmployees) {
+        CheckForDuplicates.listOfNonDuplicatedEmployees = listOfNonDuplicatedEmployees;
+    }
 }
