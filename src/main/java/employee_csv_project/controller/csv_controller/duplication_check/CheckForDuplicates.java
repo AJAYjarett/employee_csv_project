@@ -14,7 +14,7 @@ public class CheckForDuplicates {
         if (listOfNonDuplicatedEmployees.isEmpty()) {
             listOfNonDuplicatedEmployees.add(employee);
         } else {
-            return !checkForIdDuplicates(employee);
+            return checkForIdDuplicates(employee);
         }
         return true;
     }
@@ -31,6 +31,7 @@ public class CheckForDuplicates {
 
             }
         }
+        listOfNonDuplicatedEmployees.add(employee);
         return true;
     }
 

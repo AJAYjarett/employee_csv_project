@@ -1423,3 +1423,1025 @@
   <message>Getting employee data from CSV file</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:07:37.437187600Z</date>
+  <millis>1640167657437</millis>
+  <nanos>187600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:07:37.484063100Z</date>
+  <millis>1640167657484</millis>
+  <nanos>63100</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:07:59.356452700Z</date>
+  <millis>1640167679356</millis>
+  <nanos>452700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:07:59.436239600Z</date>
+  <millis>1640167679436</millis>
+  <nanos>239600</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:08:17.630697100Z</date>
+  <millis>1640167697630</millis>
+  <nanos>697100</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:08:17.701508100Z</date>
+  <millis>1640167697701</millis>
+  <nanos>508100</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:08:40.210701Z</date>
+  <millis>1640167720210</millis>
+  <nanos>701000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:08:40.279515700Z</date>
+  <millis>1640167720279</millis>
+  <nanos>515700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:09:21.840551100Z</date>
+  <millis>1640167761840</millis>
+  <nanos>551100</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:09:21.922333200Z</date>
+  <millis>1640167761922</millis>
+  <nanos>333200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:09:33.040138Z</date>
+  <millis>1640167773040</millis>
+  <nanos>138000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:09:33.082024700Z</date>
+  <millis>1640167773082</millis>
+  <nanos>24700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:09:46.944452900Z</date>
+  <millis>1640167786944</millis>
+  <nanos>452900</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:09:47.016260400Z</date>
+  <millis>1640167787016</millis>
+  <nanos>260400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:10:47.722986700Z</date>
+  <millis>1640167847722</millis>
+  <nanos>986700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.768864200Z</date>
+  <millis>1640167847768</millis>
+  <nanos>864200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.813744600Z</date>
+  <millis>1640167847813</millis>
+  <nanos>744600</nanos>
+  <sequence>2</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+945178 Tanja Ralph
+945178 Beulah Weeks</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.861664100Z</date>
+  <millis>1640167847861</millis>
+  <nanos>664100</nanos>
+  <sequence>3</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+467080 Dane Lomeli
+467080 Terrilyn Mcmullen</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.862660800Z</date>
+  <millis>1640167847862</millis>
+  <nanos>660800</nanos>
+  <sequence>4</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+517476 Twila Cherry
+517476 Marleen Bell</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.864655900Z</date>
+  <millis>1640167847864</millis>
+  <nanos>655900</nanos>
+  <sequence>5</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+281376 Cary Murr
+281376 Charlene Fenton</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.865652800Z</date>
+  <millis>1640167847865</millis>
+  <nanos>652800</nanos>
+  <sequence>6</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+173479 Jefferey Carver
+173479 Marnie Luckey</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.866649900Z</date>
+  <millis>1640167847866</millis>
+  <nanos>649900</nanos>
+  <sequence>7</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+254060 Lanell Dunford
+254060 Sylvester Hamill</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.870640200Z</date>
+  <millis>1640167847870</millis>
+  <nanos>640200</nanos>
+  <sequence>8</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+581148 Anton Donnelly
+581148 Oneida Straub</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.871637200Z</date>
+  <millis>1640167847871</millis>
+  <nanos>637200</nanos>
+  <sequence>9</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+989007 Hettie Barksdale
+989007 Carol London</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.872634300Z</date>
+  <millis>1640167847872</millis>
+  <nanos>634300</nanos>
+  <sequence>10</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+961538 Carol Guest
+961538 Norman Siler</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.875625700Z</date>
+  <millis>1640167847875</millis>
+  <nanos>625700</nanos>
+  <sequence>11</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+806216 Bryon Sprague
+806216 Gwendolyn Bramble</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.877622800Z</date>
+  <millis>1640167847877</millis>
+  <nanos>622800</nanos>
+  <sequence>12</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+968722 Francoise Mcbryde
+968722 Freeman Lower</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.880612500Z</date>
+  <millis>1640167847880</millis>
+  <nanos>612500</nanos>
+  <sequence>13</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+535207 Tabatha Threadgill
+535207 Myrtie Testerman</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.882607200Z</date>
+  <millis>1640167847882</millis>
+  <nanos>607200</nanos>
+  <sequence>14</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+401576 Cythia Rosenblatt
+401576 Iola Carranza</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.883605100Z</date>
+  <millis>1640167847883</millis>
+  <nanos>605100</nanos>
+  <sequence>15</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+505192 Simonne Soares
+505192 Corinna Garfield</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.884603300Z</date>
+  <millis>1640167847884</millis>
+  <nanos>603300</nanos>
+  <sequence>16</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+577588 Giuseppe Lux
+577588 Adam Sorensen</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.886599600Z</date>
+  <millis>1640167847886</millis>
+  <nanos>599600</nanos>
+  <sequence>17</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+528467 Ayanna Pinder
+528467 Asa Peeples</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.887595800Z</date>
+  <millis>1640167847887</millis>
+  <nanos>595800</nanos>
+  <sequence>18</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+741457 Hank Sauter
+741457 Shawn Felts</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.889589200Z</date>
+  <millis>1640167847889</millis>
+  <nanos>589200</nanos>
+  <sequence>19</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+425467 Venita Wagers
+425467 Benton Dotson</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.890586700Z</date>
+  <millis>1640167847890</millis>
+  <nanos>586700</nanos>
+  <sequence>20</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+766480 Lorna Masters
+766480 Bridgette Cannady</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.891583700Z</date>
+  <millis>1640167847891</millis>
+  <nanos>583700</nanos>
+  <sequence>21</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+315817 Marti Brewton
+315817 Suzanna Mcfarlane</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.892582200Z</date>
+  <millis>1640167847892</millis>
+  <nanos>582200</nanos>
+  <sequence>22</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+724623 Lera Tillett
+724623 Lashonda Heckman</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.894576500Z</date>
+  <millis>1640167847894</millis>
+  <nanos>576500</nanos>
+  <sequence>23</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+772917 Jalisa Nilsson
+772917 Valentine Linder</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.896570400Z</date>
+  <millis>1640167847896</millis>
+  <nanos>570400</nanos>
+  <sequence>24</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+992731 Simon Lantz
+992731 Kirstin Begley</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.900560600Z</date>
+  <millis>1640167847900</millis>
+  <nanos>560600</nanos>
+  <sequence>25</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+891653 Marshall Johanson
+891653 Mindi Higley</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.904548600Z</date>
+  <millis>1640167847904</millis>
+  <nanos>548600</nanos>
+  <sequence>26</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+469204 Marion Rigby
+469204 Rufus Schofield</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.905546200Z</date>
+  <millis>1640167847905</millis>
+  <nanos>546200</nanos>
+  <sequence>27</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+177006 Bud Pardue
+177006 Gisele Huie</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.906543300Z</date>
+  <millis>1640167847906</millis>
+  <nanos>543300</nanos>
+  <sequence>28</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+214099 Alina Kates
+214099 Isabelle Escobedo</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.906543300Z</date>
+  <millis>1640167847906</millis>
+  <nanos>543300</nanos>
+  <sequence>29</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+115718 Oliver Morris
+115718 Celia Richards</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.908538700Z</date>
+  <millis>1640167847908</millis>
+  <nanos>538700</nanos>
+  <sequence>30</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+437622 Hassie Tye
+437622 Marshall Luckett</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.910535900Z</date>
+  <millis>1640167847910</millis>
+  <nanos>535900</nanos>
+  <sequence>31</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+556707 Miss Mccammon
+556707 Randy Foxworth</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.912527800Z</date>
+  <millis>1640167847912</millis>
+  <nanos>527800</nanos>
+  <sequence>32</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+562522 Jamaal Ellingson
+562522 Merlin Tackett</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.914524900Z</date>
+  <millis>1640167847914</millis>
+  <nanos>524900</nanos>
+  <sequence>33</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+482012 Jennie Warner
+482012 Jonnie Mclellan</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.915525200Z</date>
+  <millis>1640167847915</millis>
+  <nanos>525200</nanos>
+  <sequence>34</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+443835 Terresa Forest
+443835 Louis Alton</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.917514800Z</date>
+  <millis>1640167847917</millis>
+  <nanos>514800</nanos>
+  <sequence>35</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+195200 Elvis Seitz
+195200 Jaime Steck</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.922017100Z</date>
+  <millis>1640167847922</millis>
+  <nanos>17100</nanos>
+  <sequence>36</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+439490 Joshua Pacheco
+439490 Catrice Labrecque</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.923014600Z</date>
+  <millis>1640167847923</millis>
+  <nanos>14600</nanos>
+  <sequence>37</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+874818 Nannie Claiborne
+874818 Joshua Thai</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.925008800Z</date>
+  <millis>1640167847925</millis>
+  <nanos>8800</nanos>
+  <sequence>38</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+232476 Aisha Mcburney
+232476 Nancie Broomfield</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.928998200Z</date>
+  <millis>1640167847928</millis>
+  <nanos>998200</nanos>
+  <sequence>39</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+695651 Moses Scheller
+695651 Herb Mosier</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.929995200Z</date>
+  <millis>1640167847929</millis>
+  <nanos>995200</nanos>
+  <sequence>40</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+576333 Dominica Arsenault
+576333 Gregorio Bauman</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.931991600Z</date>
+  <millis>1640167847931</millis>
+  <nanos>991600</nanos>
+  <sequence>41</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+421181 Sidney Lindstrom
+421181 Merri Tillery</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.932988300Z</date>
+  <millis>1640167847932</millis>
+  <nanos>988300</nanos>
+  <sequence>42</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+637227 Oliver Rockett
+637227 Georgiann Leyba</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.933984900Z</date>
+  <millis>1640167847933</millis>
+  <nanos>984900</nanos>
+  <sequence>43</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+816839 Gerry Doody
+816839 In Shirk</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.934983Z</date>
+  <millis>1640167847934</millis>
+  <nanos>983000</nanos>
+  <sequence>44</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+365479 Terence Huss
+365479 Leann Ellinger</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.936979Z</date>
+  <millis>1640167847936</millis>
+  <nanos>979000</nanos>
+  <sequence>45</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+992780 Edward Stcyr
+992780 Lawrence Macomber</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.943957900Z</date>
+  <millis>1640167847943</millis>
+  <nanos>957900</nanos>
+  <sequence>46</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+571027 Jamee Stamp
+571027 Maegan Tyson</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.945954400Z</date>
+  <millis>1640167847945</millis>
+  <nanos>954400</nanos>
+  <sequence>47</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+947619 Barbie Grillo
+947619 Penny Drumm</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.949941600Z</date>
+  <millis>1640167847949</millis>
+  <nanos>941600</nanos>
+  <sequence>48</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+721695 Henry Hyden
+721695 Robert Harrison</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.950940900Z</date>
+  <millis>1640167847950</millis>
+  <nanos>940900</nanos>
+  <sequence>49</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+273911 Jamal Fairchild
+273911 Eboni Vermillion</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.953931700Z</date>
+  <millis>1640167847953</millis>
+  <nanos>931700</nanos>
+  <sequence>50</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+308771 Candida Weekley
+308771 Adeline Poston</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.954929700Z</date>
+  <millis>1640167847954</millis>
+  <nanos>929700</nanos>
+  <sequence>51</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+449321 Mickey Squire
+449321 Tommie Tomblin</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.956924300Z</date>
+  <millis>1640167847956</millis>
+  <nanos>924300</nanos>
+  <sequence>52</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+602809 Ralph Dampier
+602809 Juana Perdue</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.958918200Z</date>
+  <millis>1640167847958</millis>
+  <nanos>918200</nanos>
+  <sequence>53</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+768767 Dorcas Magill
+768767 Elene Riddick</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.961909300Z</date>
+  <millis>1640167847961</millis>
+  <nanos>909300</nanos>
+  <sequence>54</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+955733 Marc Mcleod
+955733 Irwin Grow</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.962907700Z</date>
+  <millis>1640167847962</millis>
+  <nanos>907700</nanos>
+  <sequence>55</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+272630 Shane Bouie
+272630 Ingeborg Bolding</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.966896600Z</date>
+  <millis>1640167847966</millis>
+  <nanos>896600</nanos>
+  <sequence>56</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+510897 Russell Nowell
+510897 Alene Throckmorton</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.967894200Z</date>
+  <millis>1640167847967</millis>
+  <nanos>894200</nanos>
+  <sequence>57</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+758783 Tommy Lockridge
+758783 Antonio Kropp</message>
+</record>
+<record>
+  <date>2021-12-22T10:10:47.969890100Z</date>
+  <millis>1640167847969</millis>
+  <nanos>890100</nanos>
+  <sequence>58</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Duplicate found:
+631859 Evelin Mariscal
+631859 Trudi Aiken</message>
+</record>
+</log>
