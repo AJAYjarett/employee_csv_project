@@ -55,13 +55,13 @@ public class DataValidatorTest {
     @Test
     @DisplayName("Test that a valid Salary returns true")
     void testThatAValidSalaryReturnsTrue() {
-        Assertions.assertTrue(formatSalary("19854"));
+        Assertions.assertTrue(formatIdOrSalary("19854"));
     }
 
     @Test
     @DisplayName("Test that an invalid salary returns false")
     void testThatAnInvalidSalaryReturnsFalse() {
-        Assertions.assertFalse(formatSalary("Money"));
+        Assertions.assertFalse(formatIdOrSalary("Money"));
     }
     
 }
