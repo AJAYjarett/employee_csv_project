@@ -13,6 +13,8 @@ public class LogWriter {
         try {
             Handler fileHandler = new FileHandler("src/main/resources/myLog.log", true);
             logger.addHandler(fileHandler);
+            fileHandler.setFormatter(new LogFormat());
+            logger.log(Level.INFO, "Initialising the Program");
         } catch (
                 IOException e) {
             e.printStackTrace();
