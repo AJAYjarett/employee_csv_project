@@ -3,18 +3,11 @@ package employee_csv_project.controller.program_controller;
 import employee_csv_project.config.Config;
 import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
 import employee_csv_project.controller.csv_controller.data_validation.EmployeeCheck;
-import employee_csv_project.controller.csv_controller.duplication_handler.DuplicatesRefactor;
-import employee_csv_project.controller.db_controller.db_management.ConnectionManager;
 import employee_csv_project.controller.db_controller.send_data_to_database.CreateDbAndTable;
 import employee_csv_project.controller.db_controller.send_data_to_database.SendEmployeeData;
-import employee_csv_project.controller.db_controller.sql_queries.SQLPreparedQueries;
 import employee_csv_project.model.EmployeeDTO;
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeesDAO;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
