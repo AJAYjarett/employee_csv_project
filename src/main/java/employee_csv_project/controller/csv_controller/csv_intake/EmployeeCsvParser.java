@@ -1,7 +1,6 @@
 package employee_csv_project.controller.csv_controller.csv_intake;
 
 import employee_csv_project.config.Config;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -9,7 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeCsvParser {
-
+    /**
+     * Methods retrieves employees data from csv file and refactor it for EmployeeDTO object.
+     * @return Employee refactored data.
+     */
     public static List<String[]> createEmployeeData() {
         List<String[]> refactoredEmployeeDetails = new ArrayList<>();
         try {
