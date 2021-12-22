@@ -1,6 +1,8 @@
 package employee_csv_project.model;
 
 import employee_csv_project.controller.csv_controller.duplication_handler.CheckForDuplicates;
+import employee_csv_project.controller.csv_controller.duplication_handler.DuplicatesRefactor;
+
 import java.util.ArrayList;
 
 public class EmployeesDAO {
@@ -12,7 +14,7 @@ public class EmployeesDAO {
     public void addEmployeeToList(EmployeeDTO employeeData){
 
         if(CheckForDuplicates.checkDuplicates(employeeData)) {
-            allEmployees.add(employeeData);
+            allEmployees.add(DuplicatesRefactor.refactorEmployeeId(employeeData));
         }
     }
 
