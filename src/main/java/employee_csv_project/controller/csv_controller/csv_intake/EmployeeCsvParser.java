@@ -12,10 +12,10 @@ public class EmployeeCsvParser {
      * Methods retrieves employees data from csv file and refactor it for EmployeeDTO object.
      * @return Employee refactored data.
      */
-    public static List<String[]> createEmployeeData() {
+    public static List<String[]> createEmployeeData(String fileLocation) {
         List<String[]> refactoredEmployeeDetails = new ArrayList<>();
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(Config.employeeCsvFileLocation()));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(fileLocation));
             bufferedReader.readLine();
             for (String employeeRecord = bufferedReader.readLine(); employeeRecord != null; employeeRecord = bufferedReader.readLine()) {
                 refactoredEmployeeDetails.add(refactorEmployeeRecord(employeeRecord));
