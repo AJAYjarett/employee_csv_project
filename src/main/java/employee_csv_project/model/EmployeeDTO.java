@@ -1,5 +1,10 @@
 package employee_csv_project.model;
 
+import employee_csv_project.controller.csv_controller.data_transformation.DataCleaner;
+import employee_csv_project.controller.csv_controller.data_transformation.SalaryConverter;
+
+import java.sql.Date;
+
 public class EmployeeDTO {
 
     private int employeeId;
@@ -9,9 +14,9 @@ public class EmployeeDTO {
     private String lastName;
     private String gender;
     private String eMail;
-    private String dob;
-    private String dateOfJoining;
-    private int salary;
+    private Date dob;
+    private Date dateOfJoining;
+    private float salary;
 
     public EmployeeDTO(String[] employeeData) {
         this.employeeId = Integer.parseInt(employeeData[0]);
@@ -21,9 +26,9 @@ public class EmployeeDTO {
         this.lastName = employeeData[4];
         this.gender = employeeData[5];
         this.eMail = employeeData[6];
-        this.dob = employeeData[7];
-        this.dateOfJoining = employeeData[8];
-        this.salary = Integer.parseInt(employeeData[9]);
+        this.dob = DataCleaner.formatDate(employeeData[7]);
+        this.dateOfJoining = DataCleaner.formatDate(employeeData[8]);
+        this.salary = SalaryConverter.convertSalaryToFloat(employeeData[9]);
     }
 
     public int getEmployeeId() {
@@ -54,15 +59,15 @@ public class EmployeeDTO {
         return eMail;
     }
 
-    public String getDob() {
+    public Date getDob() {
         return dob;
     }
 
-    public String getDateOfJoining() {
+    public Date getDateOfJoining() {
         return dateOfJoining;
     }
 
-    public int getSalary() {
+    public float getSalary() {
         return salary;
     }
 

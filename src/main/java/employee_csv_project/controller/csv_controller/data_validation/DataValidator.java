@@ -1,6 +1,6 @@
 package employee_csv_project.controller.csv_controller.data_validation;
 
-import java.time.LocalDate;
+import java.sql.Date;
 
 public class DataValidator {
 
@@ -17,8 +17,8 @@ public class DataValidator {
      * @param birthDate The earlier date
      * @return boolean whether the birthDate is before the joinDate
      */
-    public static boolean validateDates(LocalDate birthDate, LocalDate joinDate) {
-        return birthDate.isBefore(joinDate);
+    public static boolean validateDates(Date birthDate, Date joinDate) {
+        return birthDate.toLocalDate().isBefore(joinDate.toLocalDate());
     }
 
     /**
@@ -28,5 +28,18 @@ public class DataValidator {
      */
     public static boolean validateGender(String gender) {
         return (gender.equals("M") || gender.equals("F"));
+    }
+
+    public static boolean validateEmail(String emailToCheck){
+        return emailToCheck.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+    }
+
+    public static boolean formatSalary (String givenSalary){
+        if (givenSalary.matches("^[0-9]+$")) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }

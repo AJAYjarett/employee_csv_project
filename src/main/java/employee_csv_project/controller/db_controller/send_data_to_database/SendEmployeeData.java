@@ -21,9 +21,9 @@ public class SendEmployeeData {
             preparedStatement.setString(5,employeeDTO.getLastName());
             preparedStatement.setString(6,employeeDTO.getGender());
             preparedStatement.setString(7,employeeDTO.getEmail());
-            preparedStatement.setString(8,employeeDTO.getDob());
-            preparedStatement.setString(9,employeeDTO.getDateOfJoining());
-            preparedStatement.setInt(10,employeeDTO.getSalary());
+            preparedStatement.setDate(8,employeeDTO.getDob());
+            preparedStatement.setDate(9,employeeDTO.getDateOfJoining());
+            preparedStatement.setFloat(10,employeeDTO.getSalary());
             preparedStatement.execute();
             connection.close();
         } catch (SQLException e) {
