@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:16:18.023639400Z</date>
+  <millis>1640106978023</millis>
+  <nanos>639400</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:16:18.068519200Z</date>
+  <millis>1640106978068</millis>
+  <nanos>519200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:19:35.453989500Z</date>
+  <millis>1640107175453</millis>
+  <nanos>989500</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:19:35.502862200Z</date>
+  <millis>1640107175502</millis>
+  <nanos>862200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:20:50.490603700Z</date>
+  <millis>1640107250490</millis>
+  <nanos>603700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:20:50.533488900Z</date>
+  <millis>1640107250533</millis>
+  <nanos>488900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:22:11.096394600Z</date>
+  <millis>1640107331096</millis>
+  <nanos>394600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:22:11.143270800Z</date>
+  <millis>1640107331143</millis>
+  <nanos>270800</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:31:28.784190500Z</date>
+  <millis>1640107888784</millis>
+  <nanos>190500</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:31:28.835054400Z</date>
+  <millis>1640107888835</millis>
+  <nanos>54400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:31:41.453811300Z</date>
+  <millis>1640107901453</millis>
+  <nanos>811300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:31:41.498691400Z</date>
+  <millis>1640107901498</millis>
+  <nanos>691400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:32:25.307776Z</date>
+  <millis>1640107945307</millis>
+  <nanos>776000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:32:25.431953500Z</date>
+  <millis>1640107945431</millis>
+  <nanos>953500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:33:08.222395700Z</date>
+  <millis>1640107988222</millis>
+  <nanos>395700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:33:08.322235600Z</date>
+  <millis>1640107988322</millis>
+  <nanos>235600</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:33:42.094353Z</date>
+  <millis>1640108022094</millis>
+  <nanos>353000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:33:42.209212300Z</date>
+  <millis>1640108022209</millis>
+  <nanos>212300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:41:27.624223700Z</date>
+  <millis>1640108487624</millis>
+  <nanos>223700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:41:27.677593900Z</date>
+  <millis>1640108487677</millis>
+  <nanos>593900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:41:58.467065600Z</date>
+  <millis>1640108518467</millis>
+  <nanos>65600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:41:58.567310300Z</date>
+  <millis>1640108518567</millis>
+  <nanos>310300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:42:23.261634300Z</date>
+  <millis>1640108543261</millis>
+  <nanos>634300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:42:23.290763700Z</date>
+  <millis>1640108543290</millis>
+  <nanos>763700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:42:43.814953600Z</date>
+  <millis>1640108563814</millis>
+  <nanos>953600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:42:43.953970300Z</date>
+  <millis>1640108563953</millis>
+  <nanos>970300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:42:53.354983400Z</date>
+  <millis>1640108573354</millis>
+  <nanos>983400</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:42:54.163342900Z</date>
+  <millis>1640108574163</millis>
+  <nanos>342900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:43:24.100325900Z</date>
+  <millis>1640108604100</millis>
+  <nanos>325900</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:43:24.200569700Z</date>
+  <millis>1640108604200</millis>
+  <nanos>569700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:43:51.760900700Z</date>
+  <millis>1640108631760</millis>
+  <nanos>900700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:43:51.892391500Z</date>
+  <millis>1640108631892</millis>
+  <nanos>391500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T17:45:13.509146200Z</date>
+  <millis>1640108713509</millis>
+  <nanos>146200</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T17:45:13.540387600Z</date>
+  <millis>1640108713540</millis>
+  <nanos>387600</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:13:43.788192700Z</date>
+  <millis>1640121223788</millis>
+  <nanos>192700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:13:43.904054200Z</date>
+  <millis>1640121223904</millis>
+  <nanos>54200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:13:52.734250200Z</date>
+  <millis>1640121232734</millis>
+  <nanos>250200</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:13:52.803247500Z</date>
+  <millis>1640121232803</millis>
+  <nanos>247500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:14:50.563762700Z</date>
+  <millis>1640121290563</millis>
+  <nanos>762700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:14:50.605043200Z</date>
+  <millis>1640121290605</millis>
+  <nanos>43200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:17:08.259077100Z</date>
+  <millis>1640121428259</millis>
+  <nanos>77100</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:17:08.332553500Z</date>
+  <millis>1640121428332</millis>
+  <nanos>553500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:19:42.749373500Z</date>
+  <millis>1640121582749</millis>
+  <nanos>373500</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:19:42.802752700Z</date>
+  <millis>1640121582802</millis>
+  <nanos>752700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:22:11.833227400Z</date>
+  <millis>1640121731833</millis>
+  <nanos>227400</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:22:11.880091900Z</date>
+  <millis>1640121731880</millis>
+  <nanos>91900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:23:32.009608300Z</date>
+  <millis>1640121812009</millis>
+  <nanos>608300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:23:32.047357Z</date>
+  <millis>1640121812047</millis>
+  <nanos>357000</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:26:56.640689800Z</date>
+  <millis>1640122016640</millis>
+  <nanos>689800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:26:56.671930Z</date>
+  <millis>1640122016671</millis>
+  <nanos>930000</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:28:15.568610Z</date>
+  <millis>1640122095568</millis>
+  <nanos>610000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:28:15.610498500Z</date>
+  <millis>1640122095610</millis>
+  <nanos>498500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:28:28.915570500Z</date>
+  <millis>1640122108915</millis>
+  <nanos>570500</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:28:28.957458800Z</date>
+  <millis>1640122108957</millis>
+  <nanos>458800</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:28:41.054988Z</date>
+  <millis>1640122121054</millis>
+  <nanos>988000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:28:41.151727400Z</date>
+  <millis>1640122121151</millis>
+  <nanos>727400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:29:46.976691600Z</date>
+  <millis>1640122186976</millis>
+  <nanos>691600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:29:47.014449700Z</date>
+  <millis>1640122187014</millis>
+  <nanos>449700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:33:52.334214800Z</date>
+  <millis>1640122432334</millis>
+  <nanos>214800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:33:52.381078900Z</date>
+  <millis>1640122432381</millis>
+  <nanos>78900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:34:01.822277800Z</date>
+  <millis>1640122441822</millis>
+  <nanos>277800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:34:02.655426800Z</date>
+  <millis>1640122442655</millis>
+  <nanos>426800</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:34:48.040358Z</date>
+  <millis>1640122488040</millis>
+  <nanos>358000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:34:48.203082500Z</date>
+  <millis>1640122488203</millis>
+  <nanos>82500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:37:17.246741800Z</date>
+  <millis>1640122637246</millis>
+  <nanos>741800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:37:17.284997Z</date>
+  <millis>1640122637284</millis>
+  <nanos>997000</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:50:59.667003800Z</date>
+  <millis>1640123459667</millis>
+  <nanos>3800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:50:59.720390900Z</date>
+  <millis>1640123459720</millis>
+  <nanos>390900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:52:02.323841300Z</date>
+  <millis>1640123522323</millis>
+  <nanos>841300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:52:02.434808200Z</date>
+  <millis>1640123522434</millis>
+  <nanos>808200</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T21:52:38.959773700Z</date>
+  <millis>1640123558959</millis>
+  <nanos>773700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T21:52:39.043376Z</date>
+  <millis>1640123559043</millis>
+  <nanos>376000</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T22:04:02.277701700Z</date>
+  <millis>1640124242277</millis>
+  <nanos>701700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T22:04:02.340185300Z</date>
+  <millis>1640124242340</millis>
+  <nanos>185300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T22:04:38.663552600Z</date>
+  <millis>1640124278663</millis>
+  <nanos>552600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T22:04:38.694795100Z</date>
+  <millis>1640124278694</millis>
+  <nanos>795100</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-21T22:04:59.910752800Z</date>
+  <millis>1640124299910</millis>
+  <nanos>752800</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-21T22:05:00.010999600Z</date>
+  <millis>1640124300010</millis>
+  <nanos>999600</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T08:53:07.347367Z</date>
+  <millis>1640163187347</millis>
+  <nanos>367000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T08:53:07.436013700Z</date>
+  <millis>1640163187436</millis>
+  <nanos>13700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T08:55:32.013623Z</date>
+  <millis>1640163332013</millis>
+  <nanos>623000</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T08:55:32.115248400Z</date>
+  <millis>1640163332115</millis>
+  <nanos>248400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T08:55:38.751795100Z</date>
+  <millis>1640163338751</millis>
+  <nanos>795100</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T08:55:38.894429900Z</date>
+  <millis>1640163338894</millis>
+  <nanos>429900</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T09:03:05.047392700Z</date>
+  <millis>1640163785047</millis>
+  <nanos>392700</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T09:03:05.083147500Z</date>
+  <millis>1640163785083</millis>
+  <nanos>147500</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T09:03:22.409015300Z</date>
+  <millis>1640163802409</millis>
+  <nanos>15300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T09:03:22.446753400Z</date>
+  <millis>1640163802446</millis>
+  <nanos>753400</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T09:03:33.756510300Z</date>
+  <millis>1640163813756</millis>
+  <nanos>510300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T09:03:33.875310700Z</date>
+  <millis>1640163813875</millis>
+  <nanos>310700</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T09:10:41.422632500Z</date>
+  <millis>1640164241422</millis>
+  <nanos>632500</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T09:10:41.467514100Z</date>
+  <millis>1640164241467</millis>
+  <nanos>514100</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T09:15:23.947971600Z</date>
+  <millis>1640164523947</millis>
+  <nanos>971600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T09:15:24.005817300Z</date>
+  <millis>1640164524005</millis>
+  <nanos>817300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:02:16.715761600Z</date>
+  <millis>1640167336715</millis>
+  <nanos>761600</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:02:16.758646800Z</date>
+  <millis>1640167336758</millis>
+  <nanos>646800</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:02:26.412969300Z</date>
+  <millis>1640167346412</millis>
+  <nanos>969300</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:02:26.520680300Z</date>
+  <millis>1640167346520</millis>
+  <nanos>680300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:02:54.017567900Z</date>
+  <millis>1640167374017</millis>
+  <nanos>567900</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:02:54.111342300Z</date>
+  <millis>1640167374111</millis>
+  <nanos>342300</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-22T10:03:45.112934100Z</date>
+  <millis>1640167425112</millis>
+  <nanos>934100</nanos>
+  <sequence>0</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Logging Started</message>
+</record>
+<record>
+  <date>2021-12-22T10:03:45.191722600Z</date>
+  <millis>1640167425191</millis>
+  <nanos>722600</nanos>
+  <sequence>1</sequence>
+  <logger>myLogger</logger>
+  <level>INFO</level>
+  <class>employee_csv_project.controller.logger.LogWriter</class>
+  <method>writeLog</method>
+  <thread>1</thread>
+  <message>Getting employee data from CSV file</message>
+</record>
+</log>
