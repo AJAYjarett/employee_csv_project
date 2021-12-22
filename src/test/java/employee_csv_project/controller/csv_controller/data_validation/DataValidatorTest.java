@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.sql.Date;
 
 import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.*;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DataValidatorTest {
     Date earlyDate = Date.valueOf("2000-10-24");
@@ -25,13 +25,13 @@ public class DataValidatorTest {
     @Test
     @DisplayName("Test that earlier date is before later date")
     void testThatEarlierDateIsBeforeLaterDate() {
-        Assertions.assertTrue(validateDates(earlyDate, lateDate));
+        assertTrue(validateDates(earlyDate, lateDate));
     }
 
     @Test
     @DisplayName("Test that a valid gender returns valid")
     void testThatAValidGenderReturnsValid() {
-        Assertions.assertTrue(validateGender("M"));
+        assertTrue(validateGender("M"));
     }
 
     @Test
@@ -43,7 +43,7 @@ public class DataValidatorTest {
     @Test
     @DisplayName("Test that a valid email returns valid")
     void testThatAValidEmailReturnsValid() {
-        Assertions.assertTrue(validateEmail(goodEmail));
+        assertTrue(validateEmail(goodEmail));
     }
 
     @Test
@@ -55,7 +55,7 @@ public class DataValidatorTest {
     @Test
     @DisplayName("Test that a valid Salary returns true")
     void testThatAValidSalaryReturnsTrue() {
-        Assertions.assertTrue(formatIdOrSalary("19854"));
+        assertTrue(formatIdOrSalary("19854"));
     }
 
     @Test
@@ -63,5 +63,40 @@ public class DataValidatorTest {
     void testThatAnInvalidSalaryReturnsFalse() {
         Assertions.assertFalse(formatIdOrSalary("Money"));
     }
-    
+
+    @Test
+    @DisplayName("Test that valid prefix returns true")
+    void testThatValidPrefixReturnsTrue() {
+        assertTrue(validateNamePrefix("Prince"));
+    }
+
+    @Test
+    @DisplayName("Test that invalid prefix returns false")
+    void testThatInvalidPrefixReturnsFalse() {
+        Assertions.assertFalse(validateNamePrefix("HottestDog"));
+    }
+
+    @Test
+    @DisplayName("Test that valid name returns true")
+    void testThatValidNameReturnsTrue() {
+        assertTrue(validateName("Peter"));
+    }
+
+    @Test
+    @DisplayName("Test that invalid name returns false")
+    void testThatInvalidNameReturnsFalse() {
+        assertFalse(validateName("X Æ A-12"));
+    }
+
+    @Test
+    @DisplayName("Test that valid initial returns true")
+    void testThatValidInitialReturnsTrue() {
+        Assertions.assertTrue(validateMiddleInit("K"));
+    }
+
+    @Test
+    @DisplayName("Test that invalid initial returns false")
+    void testThatInvalidInitialReturnsFalse() {
+        Assertions.assertFalse(validateMiddleInit("XD"));
+    }
 }
