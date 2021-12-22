@@ -3,6 +3,8 @@ package employee_csv_project.controller.program_controller;
 import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
 import employee_csv_project.controller.csv_controller.duplication_handler.DuplicatesRefactor;
 import employee_csv_project.controller.db_controller.db_management.ConnectionManager;
+import employee_csv_project.controller.db_controller.send_data_to_database.CreateDbAndTable;
+import employee_csv_project.controller.db_controller.send_data_to_database.SendEmployeeData;
 import employee_csv_project.controller.db_controller.sql_queries.SQLPreparedQueries;
 import employee_csv_project.model.EmployeeDTO;
 import employee_csv_project.controller.logger.LogWriter;
@@ -33,27 +35,11 @@ public class RuntimeTasks {
 
     public static void createDbFromEmployeesDAO(EmployeesDAO employeesDAO){
         ArrayList<EmployeeDTO> allEmployees = employeesDAO.getAllEmployees();
-        try {
-            Connection connection = ConnectionManager.dbEmployeeCSVDatabaseConnection();
-            connection.createStatement().executeUpdate(SQLPreparedQueries.DB_INITIALISE);
-            connection.createStatement().executeUpdate(SQLPreparedQueries.CREATE_EMPLOYEES_TABLE);
-            for (int i = 0; i < allEmployees.size(); i++) {
-                PreparedStatement preparedStatement =connection.prepareStatement(SQLPreparedQueries.INSERT_EMPLOYEE);
-                preparedStatement.setInt(1,allEmployees.get(i).getEmployeeId());
-                preparedStatement.setString(2,allEmployees.get(i).getNamePrefix());
-                preparedStatement.setString(3,allEmployees.get(i).getFirstName());
-                preparedStatement.setString(4,allEmployees.get(i).getMiddleInit());
-                preparedStatement.setString(5,allEmployees.get(i).getLastName());
-                preparedStatement.setString(6,allEmployees.get(i).getGender());
-                preparedStatement.setString(7,allEmployees.get(i).getEmail());
-                preparedStatement.setString(8,allEmployees.get(i).getDob());
-                preparedStatement.setString(9,allEmployees.get(i).getDateOfJoining());
-                preparedStatement.setInt(10,allEmployees.get(i).getSalary());
-                preparedStatement.execute();
-            }
-            ConnectionManager.closeConnection(connection);
-        } catch (SQLException e) {
-            e.printStackTrace();
+
+        CreateDbAndTable.initialiseDatabaseAndTable();
+        for (int i = 0; i < allEmployees.size(); i++) {
+            SendEmployeeData.sendEmployeeToDb(allEmployees.get(i));
+
         }
     }
 
