@@ -2,7 +2,7 @@ package employee_csv_project.controller.csv_controller.data_validation;
 
 import employee_csv_project.controller.csv_controller.data_transformation.DataCleaner;
 
-import java.time.LocalDate;
+import java.sql.Date;
 
 public class EmployeeCheck {
     public static boolean checkEmployeeIsValid(String[] employee){
@@ -14,8 +14,8 @@ public class EmployeeCheck {
         //boolean checkLastName;
         boolean checkGender = DataValidator.validateGender(employee[5]);;
         boolean checkEMail = DataValidator.validateEmail(employee[6]);
-        LocalDate dateOfBirth = DataCleaner.formatDate(employee[7]);
-        LocalDate dateOfJoining = DataCleaner.formatDate(employee[8]);;
+        Date dateOfBirth = DataCleaner.formatDate(employee[7]);
+        Date dateOfJoining = DataCleaner.formatDate(employee[8]);;
         boolean checkDobBeforeDateOfJoining = DataValidator.validateDates(dateOfBirth,dateOfJoining);
         boolean checkSalary = DataValidator.formatSalary(employee[9]);
 

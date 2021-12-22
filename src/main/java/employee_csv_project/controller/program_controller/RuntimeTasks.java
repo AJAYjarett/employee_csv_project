@@ -1,6 +1,7 @@
 package employee_csv_project.controller.program_controller;
 
 import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
+import employee_csv_project.controller.csv_controller.data_validation.EmployeeCheck;
 import employee_csv_project.controller.csv_controller.duplication_handler.DuplicatesRefactor;
 import employee_csv_project.controller.db_controller.db_management.ConnectionManager;
 import employee_csv_project.controller.db_controller.send_data_to_database.CreateDbAndTable;
@@ -25,8 +26,10 @@ public class RuntimeTasks {
         LogWriter.writeLog(Level.INFO, "Getting employee data from CSV file");
         List<String[]> employeesToStore = EmployeeCsvParser.createEmployeeData();
         for (int i = 0; i < employeesToStore.size(); i++) {
-            EmployeeDTO employeeDTO = new EmployeeDTO(employeesToStore.get(i));
-            employeesDAO.addEmployeeToList(DuplicatesRefactor.refactorEmployeeId(employeeDTO));
+            if (EmployeeCheck.checkEmployeeIsValid(employeesToStore.get(i))){
+                EmployeeDTO employeeDTO = new EmployeeDTO(employeesToStore.get(i));
+                employeesDAO.addEmployeeToList(employeeDTO);
+            }
 //            System.out.println(Arrays.toString(employeesToStore.get(i)));
         }
 
