@@ -16,7 +16,7 @@ public class DataCleaner {
 
         // Month/Day/Year becomes Year/Month/Day
 
-        return Date.valueOf(date[2] + "/" + date[0] + "/" + date[1]);
+        return Date.valueOf(date[2] + "-" + date[0] + "-" + date[1]);
     }
 
 }
