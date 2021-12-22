@@ -14,9 +14,9 @@ public interface SQLPreparedQueries {
             "last_name VARCHAR(20)," +
             "gender CHAR," +
             "e_mail VARCHAR(50)," +
-            "date_of_birth VARCHAR(10)," +
-            "date_of_joining VARCHAR(10)," +
-            "salary INTEGER," +
+            "date_of_birth DATE," +
+            "date_of_joining DATE," +
+            "salary DECIMAL(19,4)," +
             "PRIMARY KEY (employeeID))";
 
 
