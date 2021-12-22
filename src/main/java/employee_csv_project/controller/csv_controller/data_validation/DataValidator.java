@@ -29,4 +29,15 @@ public class DataValidator {
     public static boolean validateGender(String gender) {
         return (gender.equals("M") || gender.equals("F"));
     }
+    public static boolean validateEmail(String emailToCheck){
+        return emailToCheck.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+    }
+    public static boolean formatSalary (String givenSalary){
+        if (givenSalary.matches("^[0-9]+$")) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
