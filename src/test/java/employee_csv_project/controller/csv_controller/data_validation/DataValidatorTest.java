@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.sql.Date;
 
 import static employee_csv_project.controller.csv_controller.data_validation.DataValidator.*;
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class DataValidatorTest {
     Date earlyDate = Date.valueOf("2000-10-24");
@@ -49,6 +50,18 @@ public class DataValidatorTest {
     @DisplayName("Test that an invalid email returns invalid")
     void testThatAnInvalidEmailReturnsInvalid() {
         Assertions.assertFalse(validateEmail(badEmail));
+    }
+
+    @Test
+    @DisplayName("Test that a valid Salary returns true")
+    void testThatAValidSalaryReturnsTrue() {
+        Assertions.assertTrue(formatSalary("19854"));
+    }
+
+    @Test
+    @DisplayName("Test that an invalid salary returns false")
+    void testThatAnInvalidSalaryReturnsFalse() {
+        Assertions.assertFalse(formatSalary("Money"));
     }
     
 }
