@@ -1,7 +1,6 @@
 package employee_csv_project.controller.csv_controller.data_validation;
 
 import java.sql.Date;
-import java.time.LocalDate;
 
 public class DataValidator {
 
@@ -30,9 +29,11 @@ public class DataValidator {
     public static boolean validateGender(String gender) {
         return (gender.equals("M") || gender.equals("F"));
     }
+
     public static boolean validateEmail(String emailToCheck){
         return emailToCheck.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
     }
+
     public static boolean formatSalary (String givenSalary){
         if (givenSalary.matches("^[0-9]+$")) {
             return true;
