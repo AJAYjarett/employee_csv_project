@@ -1,4 +1,4 @@
-package employee_csv_project.logger;
+package employee_csv_project.controller.logger;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;

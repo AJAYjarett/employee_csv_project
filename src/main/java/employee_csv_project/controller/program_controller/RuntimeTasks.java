@@ -1,18 +1,16 @@
-package employee_csv_project.app;
+package employee_csv_project.controller.program_controller;
 
-import employee_csv_project.controller.EmployeeCsvParser;
-import employee_csv_project.controller.db_management.ConnectionManager;
-import employee_csv_project.controller.db_management.sql_queries.QueryManager;
-import employee_csv_project.controller.db_management.sql_queries.SQLPreparedQueries;
+import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
+import employee_csv_project.controller.db_controller.db_management.ConnectionManager;
+import employee_csv_project.controller.db_controller.sql_queries.SQLPreparedQueries;
 import employee_csv_project.model.EmployeeDTO;
-import employee_csv_project.logger.LogWriter;
+import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeesDAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 

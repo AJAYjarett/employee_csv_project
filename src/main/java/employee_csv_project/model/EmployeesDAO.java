@@ -1,10 +1,5 @@
 package employee_csv_project.model;
 
-import employee_csv_project.controller.db_management.ConnectionManager;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class EmployeesDAO {

@@ -1,9 +1,5 @@
 package employee_csv_project.model;
 
-import employee_csv_project.controller.DataCleaner;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
 public class EmployeeDTO {
 
     private int employeeId;
