@@ -1,6 +1,7 @@
 package employee_csv_project.controller.program_controller;
 
 import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
+import employee_csv_project.controller.csv_controller.duplication_handler.DuplicatesRefactor;
 import employee_csv_project.controller.db_controller.db_management.ConnectionManager;
 import employee_csv_project.controller.db_controller.sql_queries.SQLPreparedQueries;
 import employee_csv_project.model.EmployeeDTO;
@@ -22,9 +23,11 @@ public class RuntimeTasks {
         LogWriter.writeLog(Level.INFO, "Getting employee data from CSV file");
         List<String[]> employeesToStore = EmployeeCsvParser.createEmployeeData();
         for (int i = 0; i < employeesToStore.size(); i++) {
-            employeesDAO.addEmployeeToList(employeesToStore.get(i));
+            EmployeeDTO employeeDTO = new EmployeeDTO(employeesToStore.get(i));
+            employeesDAO.addEmployeeToList(DuplicatesRefactor.refactorEmployeeId(employeeDTO));
 //            System.out.println(Arrays.toString(employeesToStore.get(i)));
         }
+
         return employeesDAO;
     }
 
@@ -42,7 +45,7 @@ public class RuntimeTasks {
                 preparedStatement.setString(4,allEmployees.get(i).getMiddleInit());
                 preparedStatement.setString(5,allEmployees.get(i).getLastName());
                 preparedStatement.setString(6,allEmployees.get(i).getGender());
-                preparedStatement.setString(7,allEmployees.get(i).geteMail());
+                preparedStatement.setString(7,allEmployees.get(i).getEmail());
                 preparedStatement.setString(8,allEmployees.get(i).getDob());
                 preparedStatement.setString(9,allEmployees.get(i).getDateOfJoining());
                 preparedStatement.setInt(10,allEmployees.get(i).getSalary());

@@ -50,7 +50,7 @@ public class EmployeeDTO {
         return gender;
     }
 
-    public String geteMail() {
+    public String getEmail() {
         return eMail;
     }
 
@@ -64,5 +64,9 @@ public class EmployeeDTO {
 
     public int getSalary() {
         return salary;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 }

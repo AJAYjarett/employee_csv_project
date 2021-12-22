@@ -1,6 +1,6 @@
 package employee_csv_project.controller;
 
-import employee_csv_project.controller.csv_controller.duplication_check.CheckForDuplicates;
+import employee_csv_project.controller.csv_controller.duplication_handler.CheckForDuplicates;
 import employee_csv_project.model.EmployeeDTO;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
