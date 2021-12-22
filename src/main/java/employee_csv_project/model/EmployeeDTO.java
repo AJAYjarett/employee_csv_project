@@ -1,7 +1,7 @@
 package employee_csv_project.model;
 
 import employee_csv_project.controller.csv_controller.data_transformation.DataCleaner;
-import employee_csv_project.controller.csv_controller.data_transformation.SalaryValidater;
+import employee_csv_project.controller.csv_controller.data_transformation.SalaryConverter;
 
 import java.sql.Date;
 
@@ -28,7 +28,7 @@ public class EmployeeDTO {
         this.eMail = employeeData[6];
         this.dob = DataCleaner.formatDate(employeeData[7]);
         this.dateOfJoining = DataCleaner.formatDate(employeeData[8]);
-        this.salary = SalaryValidater.convertSalaryToFloat(employeeData[9]);
+        this.salary = SalaryConverter.convertSalaryToFloat(employeeData[9]);
     }
 
     public int getEmployeeId() {
