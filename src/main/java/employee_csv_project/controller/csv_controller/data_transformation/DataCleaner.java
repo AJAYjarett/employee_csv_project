@@ -19,5 +19,4 @@ public class DataCleaner {
         return LocalDate.of(Integer.parseInt(date[2]), Integer.parseInt(date[0]),Integer.parseInt(date[1]));
     }
 
-
 }

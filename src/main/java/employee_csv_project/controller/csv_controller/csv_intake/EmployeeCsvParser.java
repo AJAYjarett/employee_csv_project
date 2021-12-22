@@ -27,7 +27,6 @@ public class EmployeeCsvParser {
     private static String[] refactorEmployeeRecord(String employeeRecord) {
         String[] employeeDetails = employeeRecord.split(",");
         return employeeDetails;
-
     }
 
 }
