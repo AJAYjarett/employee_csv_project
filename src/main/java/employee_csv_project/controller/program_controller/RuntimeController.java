@@ -13,6 +13,6 @@ public class RuntimeController {
         LogWriter.writeLog(Level.INFO, "Logging Started");
       
         EmployeesDAO employeesDAO = RuntimeTasks.createEmployeesDAO();
-        //RuntimeTasks.createDbFromEmployeesDAO(employeesDAO);
+        RuntimeTasks.createDbFromEmployeesDAO(employeesDAO);
     }
 }
