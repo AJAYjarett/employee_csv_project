@@ -9,19 +9,20 @@ import employee_csv_project.controller.db_controller.send_data_to_database.SendE
 import employee_csv_project.model.EmployeeDTO;
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeesDAO;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
 public class RuntimeTasks {
 
-    public static EmployeesDAO createEmployeesDAO(){
+    public static EmployeesDAO createEmployeesDAO() {
         EmployeesDAO employeesDAO = new EmployeesDAO();
 
         LogWriter.writeLog(Level.INFO, "Getting employee data from CSV file");
         List<String[]> employeesToStore = EmployeeCsvParser.createEmployeeData(Config.employeeCsvFileLocation());
         for (int i = 0; i < employeesToStore.size(); i++) {
-            if (EmployeeCheck.checkEmployeeIsValid(employeesToStore.get(i))){
+            if (EmployeeCheck.checkEmployeeIsValid(employeesToStore.get(i))) {
                 EmployeeDTO employeeDTO = new EmployeeDTO(employeesToStore.get(i));
                 employeesDAO.addEmployeeToList(employeeDTO);
             }
@@ -30,14 +31,11 @@ public class RuntimeTasks {
         }
         System.out.println(CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
         System.out.println(CheckForDuplicates.getListOfDuplicatedEmployees().size());
-
-        System.out.println(CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
-        System.out.println(CheckForDuplicates.getListOfDuplicatedEmployees().size());
-
+        /*CheckForDuplicates.writeDuplicatesIntoFile("src/main/resources/EmployeeDuplicatesRecords.csv");*/
         return employeesDAO;
     }
 
-    public static void createDbFromEmployeesDAO(EmployeesDAO employeesDAO){
+    public static void createDbFromEmployeesDAO(EmployeesDAO employeesDAO) {
         ArrayList<EmployeeDTO> allEmployees = employeesDAO.getAllEmployees();
 
         CreateDbAndTable.initialiseDatabaseAndTable();

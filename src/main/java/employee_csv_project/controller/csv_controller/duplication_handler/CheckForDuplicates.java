@@ -2,12 +2,7 @@ package employee_csv_project.controller.csv_controller.duplication_handler;
 
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeeDTO;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.logging.Level;
 
 public class CheckForDuplicates {
@@ -16,7 +11,7 @@ public class CheckForDuplicates {
 
     public static boolean checkDuplicates(EmployeeDTO employee) {
         if (listOfNonDuplicatedEmployees.isEmpty()) {
-            listOfNonDuplicatedEmployees.add(employee);
+            listOfNonDuplicatedEmployees.add(new EmployeeDTO(new String[]{"0", null, null, null, null, null,null,"1/1/2008", "1/1/2008", "1"}));
         } else {
             return checkForIdDuplicates(employee);
         }
@@ -25,9 +20,9 @@ public class CheckForDuplicates {
 
     /**
      * Method checks if current employee is a duplicate. If true, it adds both duplicates to listOfDuplicatedEmployees list
-     * and removes base duplicate from listOfNonDuplicatedEmployees list
-     * @param employee to check
-     * @return Boolean if employee is duplicate
+     * and removes base duplicate from listOfNonDuplicatedEmployees list.
+     * @param employee to check.
+     * @return Boolean if employee is duplicate.
      */
     public static boolean checkForIdDuplicates(EmployeeDTO employee) {
         for (int i = 0; i < listOfNonDuplicatedEmployees.size(); i++) {
@@ -55,6 +50,19 @@ public class CheckForDuplicates {
         return listOfDuplicatedEmployees;
     }
 
-
+    /*public static void writeDuplicatesIntoFile(String fileLocation){
+        try {
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileLocation, true));
+            for (int i = 0; i <listOfDuplicatedEmployees.size(); i++) {
+                System.out.println(listOfDuplicatedEmployees.get(i).toString());
+                bufferedWriter.write(listOfDuplicatedEmployees.get(i).toString()+"\n");
+                if(i==listOfDuplicatedEmployees.size()-1){
+                    bufferedWriter.close();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }*/
 
 }
