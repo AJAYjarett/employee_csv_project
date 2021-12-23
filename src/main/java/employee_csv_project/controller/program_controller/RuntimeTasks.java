@@ -3,6 +3,7 @@ package employee_csv_project.controller.program_controller;
 import employee_csv_project.config.Config;
 import employee_csv_project.controller.csv_controller.csv_intake.EmployeeCsvParser;
 import employee_csv_project.controller.csv_controller.data_validation.EmployeeCheck;
+import employee_csv_project.controller.csv_controller.duplication_handler.CheckForDuplicates;
 import employee_csv_project.controller.db_controller.send_data_to_database.CreateDbAndTable;
 import employee_csv_project.controller.db_controller.send_data_to_database.SendEmployeeData;
 import employee_csv_project.model.EmployeeDTO;
@@ -25,7 +26,13 @@ public class RuntimeTasks {
                 employeesDAO.addEmployeeToList(employeeDTO);
             }
 //            System.out.println(Arrays.toString(employeesToStore.get(i)));
+
         }
+        System.out.println(CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
+        System.out.println(CheckForDuplicates.getListOfDuplicatedEmployees().size());
+
+        System.out.println(CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
+        System.out.println(CheckForDuplicates.getListOfDuplicatedEmployees().size());
 
         return employeesDAO;
     }
