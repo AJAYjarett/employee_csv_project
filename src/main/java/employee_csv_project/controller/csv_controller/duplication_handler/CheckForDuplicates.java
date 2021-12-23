@@ -2,6 +2,10 @@ package employee_csv_project.controller.csv_controller.duplication_handler;
 
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeeDTO;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 
@@ -50,19 +54,24 @@ public class CheckForDuplicates {
         return listOfDuplicatedEmployees;
     }
 
-    /*public static void writeDuplicatesIntoFile(String fileLocation){
+    /**
+     * Generated new csv file with duplicated employees data.
+     * @param fileLocation csv file location.
+     */
+    public static void writeDuplicatesIntoFile(String fileLocation){
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileLocation, true));
             for (int i = 0; i <listOfDuplicatedEmployees.size(); i++) {
-                System.out.println(listOfDuplicatedEmployees.get(i).toString());
                 bufferedWriter.write(listOfDuplicatedEmployees.get(i).toString()+"\n");
                 if(i==listOfDuplicatedEmployees.size()-1){
                     bufferedWriter.close();
                 }
             }
+            LogWriter.writeLog(Level.INFO, "Duplicate employees data has been written into EmployeeDuplicatesRecords.csv file");
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }*/
+    }
+
 
 }

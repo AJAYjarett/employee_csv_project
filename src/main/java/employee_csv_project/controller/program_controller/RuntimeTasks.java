@@ -29,9 +29,7 @@ public class RuntimeTasks {
 //            System.out.println(Arrays.toString(employeesToStore.get(i)));
 
         }
-        System.out.println(CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
-        System.out.println(CheckForDuplicates.getListOfDuplicatedEmployees().size());
-        /*CheckForDuplicates.writeDuplicatesIntoFile("src/main/resources/EmployeeDuplicatesRecords.csv");*/
+        CheckForDuplicates.writeDuplicatesIntoFile("src/main/resources/EmployeeDuplicatesRecords.csv");
         return employeesDAO;
     }
 
