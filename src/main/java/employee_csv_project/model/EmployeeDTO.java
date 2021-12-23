@@ -1,7 +1,9 @@
 package employee_csv_project.model;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import employee_csv_project.controller.csv_controller.data_transformation.DataCleaner;
+import employee_csv_project.controller.csv_controller.data_transformation.SalaryConverter;
+
+import java.sql.Date;
 
 public class EmployeeDTO {
 
@@ -12,20 +14,64 @@ public class EmployeeDTO {
     private String lastName;
     private String gender;
     private String eMail;
-    private LocalDate dob;
-    private LocalDate dateOfJoining;
-    private int salary;
+    private Date dob;
+    private Date dateOfJoining;
+    private float salary;
 
     public EmployeeDTO(String[] employeeData) {
-
+        this.employeeId = Integer.parseInt(employeeData[0]);
+        this.namePrefix = employeeData[1];
+        this.firstName = employeeData[2];
+        this.middleInit = employeeData[3];
+        this.lastName = employeeData[4];
+        this.gender = employeeData[5];
+        this.eMail = employeeData[6];
+        this.dob = DataCleaner.formatDate(employeeData[7]);
+        this.dateOfJoining = DataCleaner.formatDate(employeeData[8]);
+        this.salary = SalaryConverter.convertSalaryToFloat(employeeData[9]);
     }
 
-
-    public void setDateOfJoining(String dateOfJoining) {
-        this.dateOfJoining = LocalDate.parse(dateOfJoining, DateTimeFormatter.ofPattern("M[M]/d[d]/yyyy"));
+    public int getEmployeeId() {
+        return employeeId;
     }
 
-    public void setDob(String dob) {
-        this.dob = LocalDate.parse(dob, DateTimeFormatter.ofPattern("M[M]/d[d]/yyyy"));
+    public String getNamePrefix() {
+        return namePrefix;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getMiddleInit() {
+        return middleInit;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getEmail() {
+        return eMail;
+    }
+
+    public Date getDob() {
+        return dob;
+    }
+
+    public Date getDateOfJoining() {
+        return dateOfJoining;
+    }
+
+    public float getSalary() {
+        return salary;
+    }
+
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 }
