@@ -1,6 +1,5 @@
 package employee_csv_project.controller.csv_controller.duplication_handler;
 
-import employee_csv_project.controller.csv_controller.duplication_handler.CheckForDuplicates;
 import employee_csv_project.model.EmployeeDTO;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -17,7 +16,8 @@ public class CheckForDuplicatesTest {
         EmployeeDTO employee = new EmployeeDTO(employeeData1);
         EmployeeDTO employee2 = new EmployeeDTO(employeeData2);
         CheckForDuplicates.checkForIdDuplicates(employee);
-        //Assertions.assertEquals(false, CheckForDuplicates.checkForIdDuplicates(employee2));
+        CheckForDuplicates.checkForIdDuplicates(employee2);
+        Assertions.assertEquals(0, CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
 
 
     }
