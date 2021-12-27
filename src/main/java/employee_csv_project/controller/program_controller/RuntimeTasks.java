@@ -9,7 +9,6 @@ import employee_csv_project.controller.db_controller.send_data_to_database.SendE
 import employee_csv_project.model.EmployeeDTO;
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeesDAO;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -19,17 +18,18 @@ public class RuntimeTasks {
     public static EmployeesDAO createEmployeesDAO() {
         EmployeesDAO employeesDAO = new EmployeesDAO();
 
-        LogWriter.writeLog(Level.INFO, "Getting employee data from CSV file");
+        LogWriter.writeLog(Level.INFO, "Getting employee data from CSV file\n");
         List<String[]> employeesToStore = EmployeeCsvParser.createEmployeeData(Config.employeeCsvFileLocation());
         for (int i = 0; i < employeesToStore.size(); i++) {
             if (EmployeeCheck.checkEmployeeIsValid(employeesToStore.get(i))) {
                 EmployeeDTO employeeDTO = new EmployeeDTO(employeesToStore.get(i));
-                employeesDAO.addEmployeeToList(employeeDTO);
+                CheckForDuplicates.checkDuplicates(employeeDTO);
             }
-//            System.out.println(Arrays.toString(employeesToStore.get(i)));
-
         }
         CheckForDuplicates.writeDuplicatesIntoFile("src/main/resources/EmployeeDuplicatesRecords.csv");
+        for (int i = 0; i <CheckForDuplicates.getListOfNonDuplicatedEmployees().size();i++) {
+            employeesDAO.addEmployeeToList(CheckForDuplicates.getListOfNonDuplicatedEmployees().get(i));
+        }
         return employeesDAO;
     }
 
@@ -37,6 +37,7 @@ public class RuntimeTasks {
         ArrayList<EmployeeDTO> allEmployees = employeesDAO.getAllEmployees();
 
         CreateDbAndTable.initialiseDatabaseAndTable();
+        LogWriter.writeLog(Level.INFO, "Writing " + CheckForDuplicates.getListOfNonDuplicatedEmployees().size() + " employees to database...\n");
         for (int i = 0; i < allEmployees.size(); i++) {
             SendEmployeeData.sendEmployeeToDb(allEmployees.get(i));
 
