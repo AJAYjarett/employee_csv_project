@@ -71,7 +71,19 @@ public class EmployeeDTO {
         return salary;
     }
 
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
+    @Override
+    public String toString() {
+        return "EmployeeDTO{" +
+                "employeeId=" + employeeId +
+                ", namePrefix='" + namePrefix + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", middleInit='" + middleInit + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", eMail='" + eMail + '\'' +
+                ", dob=" + dob +
+                ", dateOfJoining=" + dateOfJoining +
+                ", salary=" + salary +
+                '}';
     }
 }

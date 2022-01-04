@@ -13,7 +13,6 @@ public class DbInitializer {
 
             Connection connection = ConnectionManager.dbInitialiseConnection();
             connection.createStatement().executeUpdate(SQLPreparedQueries.DB_INITIALISE);
-
             ConnectionManager.closeConnection(connection);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -25,10 +24,6 @@ public class DbInitializer {
         try {
             Connection connection = ConnectionManager.dbEmployeeCSVDatabaseConnection();
             connection.createStatement().executeUpdate(SQLPreparedQueries.CREATE_EMPLOYEES_TABLE);
-
-
-
-
             ConnectionManager.closeConnection(connection);
         } catch (SQLException e) {
             e.printStackTrace();

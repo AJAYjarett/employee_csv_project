@@ -1,7 +1,6 @@
 package employee_csv_project.controller.program_controller;
 
 import employee_csv_project.controller.logger.LogWriter;
-
 import java.util.logging.Level;
 import employee_csv_project.model.EmployeesDAO;
 
