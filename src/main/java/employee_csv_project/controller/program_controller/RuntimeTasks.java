@@ -9,8 +9,11 @@ import employee_csv_project.controller.db_controller.send_data_to_database.SendE
 import employee_csv_project.model.EmployeeDTO;
 import employee_csv_project.controller.logger.LogWriter;
 import employee_csv_project.model.EmployeesDAO;
+
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 public class RuntimeTasks {
@@ -38,10 +41,14 @@ public class RuntimeTasks {
 
         CreateDbAndTable.initialiseDatabaseAndTable();
         LogWriter.writeLog(Level.INFO, "Writing " + CheckForDuplicates.getListOfNonDuplicatedEmployees().size() + " employees to database...\n");
+        long startTimeNanoseconds = System.nanoTime();
         for (int i = 0; i < allEmployees.size(); i++) {
             SendEmployeeData.sendEmployeeToDb(allEmployees.get(i));
 
         }
+        long endTimeNanoseconds = System.nanoTime();
+        long totalTimeSeconds = TimeUnit.SECONDS.convert(endTimeNanoseconds-startTimeNanoseconds, TimeUnit.NANOSECONDS);
+        LogWriter.writeLog(Level.INFO, "Writing to database finished in: " + totalTimeSeconds + " seconds.");
     }
 
 }

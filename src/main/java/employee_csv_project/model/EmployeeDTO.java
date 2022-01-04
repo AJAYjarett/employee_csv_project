@@ -71,10 +71,6 @@ public class EmployeeDTO {
         return salary;
     }
 
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
-    }
-
     @Override
     public String toString() {
         return "EmployeeDTO{" +
