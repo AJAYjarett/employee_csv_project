@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 public class CheckForDuplicatesTest {
 
     @Test
-    @DisplayName("Check For Duplicates Test")
-    void checkForDuplicatesTest() {
+    @DisplayName("Check For Duplicates Test with duplicated ID")
+    void checkForDuplicatesTestDuplicatedID() {
         String[] employeeData1 = new String[]{"19846","Mrs.","Serafina","I","Bumgarner","F","serafina.bumgarner@exxonmobil.com","9/21/1982","2/1/2008","69294"};
         String[] employeeData2 = new String[]{"19846","Mrs.","Juliette","M","Rojo","F","juliette.rojo@yahoo.co.uk","5/8/1967","6/4/2011","193912"};
 
@@ -18,6 +18,20 @@ public class CheckForDuplicatesTest {
         CheckForDuplicates.checkForIdDuplicates(employee);
         CheckForDuplicates.checkForIdDuplicates(employee2);
         Assertions.assertEquals(0, CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
+
+    }
+    @Test
+    @DisplayName("Check For Duplicates Test without duplicated ID")
+    void checkForDuplicatesTestNonDuplicatedID() {
+        String[] employeeData1 = new String[]{"19847","Mrs.","Serafina","I","Bumgarner","F","serafina.bumgarner@exxonmobil.com","9/21/1982","2/1" +
+                "/2008","69294"};
+        String[] employeeData2 = new String[]{"19846","Mrs.","Juliette","M","Rojo","F","juliette.rojo@yahoo.co.uk","5/8/1967","6/4/2011","193912"};
+
+        EmployeeDTO employee = new EmployeeDTO(employeeData1);
+        EmployeeDTO employee2 = new EmployeeDTO(employeeData2);
+        CheckForDuplicates.checkForIdDuplicates(employee);
+        CheckForDuplicates.checkForIdDuplicates(employee2);
+        Assertions.assertEquals(2, CheckForDuplicates.getListOfNonDuplicatedEmployees().size());
 
 
     }
